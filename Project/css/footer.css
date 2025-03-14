@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #F8F8F8;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+#footer-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
