@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+#task-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+
+#task-bar-logo img,
+#task-bar-perfil img{
+    height: 45px;
+    width: auto;
+}
+
+#task-bar-links{
+    flex:1;
+    text-align: center;
+}
+
+#task-bar-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+#task-bar-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+
+#task-bar-links a:hover{
+    color: blue;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #task-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #task-bar-links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #task-bar-links {
+        order: 3; /* links vão para baixo no mobile */
+        width: 100%;
+    }
+
+    #task-bar-logo, #task-bar-perfil {
+        order: 1;
+    }
+}
