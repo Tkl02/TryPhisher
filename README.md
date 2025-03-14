@@ -3,14 +3,14 @@
 
 # Padrão de Commits
 
--FEAT: Alguma funcionalidade nova que você fez.
--FIX: Algum Bug que você arrumou.
--TEST: Teste que você escreveu.
--REFACTOR: Alguma refatoração que você fez.
--DOCS: Alguma alteração no README
+-FEAT: Alguma funcionalidade nova que você fez.<br>
+-FIX: Algum Bug que você arrumou.<br>
+-TEST: Teste que você escreveu.<br>
+-REFACTOR: Alguma refatoração que você fez.<br>
+-DOCS: Alguma alteração no README<br>
 
 ## Workflow no Git.
-:warning: **NUNCA DÊ UM PUSH NOS BRANCHS DEV E MAIN.**: Tome cuidado!
+warning **NUNCA DÊ UM PUSH NOS BRANCHS DEV E MAIN.**: Tome cuidado!
 
 1. Vá no branch dev, e dê um pull pra pegar as últimas atualizações.
 
