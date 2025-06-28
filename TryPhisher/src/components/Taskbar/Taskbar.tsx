@@ -1,9 +1,7 @@
-
-
-function Taskbar () {
-
+function TaskBar (){
     return(
-        <></>
+        <h1>teskbar test</h1>
     )
 }
-export default Taskbar;
+
+export default TaskBar;
