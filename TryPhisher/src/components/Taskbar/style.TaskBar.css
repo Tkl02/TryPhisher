@@ -1,0 +1,26 @@
+.bodyTaskBar{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#iconLogoTaskbar{
+    margin: 0 20px;
+}
+
+img{
+    width: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0px 25px;
+}

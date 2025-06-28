@@ -1,16 +1,11 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { BrowserRouter} from 'react-router-dom'
-import MainRoutes from './routes/Routes.tsx'
-import TaskBar from './components/taskbar/Taskbar.tsx'
-import Footer from './components/footer/Footer.tsx'
+import { RouterProvider} from 'react-router-dom'
+import router from './routes/Routes'
+import { StrictMode } from 'react'
 
 createRoot(document.getElementById('root')!).render(
-  <>
-  <TaskBar/>
-  <BrowserRouter>
-    <MainRoutes/>
-  </BrowserRouter>
-  <Footer/>
-  </>
+  <StrictMode>
+    <RouterProvider router={router}/>
+  </StrictMode>
 )

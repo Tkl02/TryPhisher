@@ -1,10 +1,16 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import Routes from './routes/Routes'
+import TaskBar from './components/taskbar/TaskBar'
+import Footer from './components/footer/Footer'
 
 function App() {
 
   return (
-    <Routes/>
+    <div>
+      <TaskBar/>
+      <Outlet/>
+      <Footer/>
+    </div>
   )
 }
 
