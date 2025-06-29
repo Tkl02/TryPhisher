@@ -7,7 +7,7 @@ import Training from '../pages/training/training'
 import Certification from '../pages/certification/certification'
 import Login from '../pages/login/Login'
 import App from "../App";
-
+import PoliciesPage from "../pages/policies/Policies";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +19,7 @@ const router = createBrowserRouter([
             {path: "Training", element: <Training/>},
             {path: "Certification", element: <Certification/>},
             {path: "Login", element: <Login/>},
+            {path: "PoliciesPage", element: <PoliciesPage/>},
         ],
     },
 ]);

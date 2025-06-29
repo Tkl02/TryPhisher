@@ -1,0 +1,25 @@
+.bodyFooter{
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 15px;
+}
+
+h3{
+
+    margin: 0px;
+}
+p{
+
+    margin: 5px;
+}
+.bodyFooter a{
+    font-size: 11px;
+    color: black;
+    margin: 5px 2px;
+}
