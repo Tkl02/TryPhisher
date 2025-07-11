@@ -1,0 +1,12 @@
+.bodyfooter {
+    background-color:#cecece;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 125px;
+}
+
+.whatssap{
+    display: flex;
+    flex-direction: row;
+}

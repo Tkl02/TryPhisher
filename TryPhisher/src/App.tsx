@@ -1,11 +1,19 @@
 import './App.css'
-import Routes from './routes/Routes'
+import Footer from './components/Footer/Footer'
+import TaskBar from './components/Taskbar/Taskbar'
+import MainRoutes from './routes/Routes'
 
 function App() {
 
   return (
-    <Routes/>
+    <>
+      <TaskBar />
+      <main>
+        <MainRoutes />
+      </main>
+      <Footer />
+    </>
   )
 }
 
-export default App
+export default App;

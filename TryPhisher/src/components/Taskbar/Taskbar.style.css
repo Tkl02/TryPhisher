@@ -1,0 +1,32 @@
+.bodytaskbar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logotaskbar, .logintaskbar{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+.logintaskbar img{
+    height: 45px;
+}
+
+.pagestaskbar{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.pagestaskbar a{
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0px 35px;
+    color: white;
+}

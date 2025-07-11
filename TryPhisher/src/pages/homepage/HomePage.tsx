@@ -1,11 +1,11 @@
-
 import React from "react";
+import './Homepage.css'
 
 const HomePage: React.FC = () => {
-    return (<>
-    <h1 style={{ color: "black"}}>pagina inicial</h1>
+    return (
+        <div className="bodyhome">
 
-    </>
+        </div>
     );
 };
 export default HomePage;
